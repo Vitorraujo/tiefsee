@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Goró Tiefsee</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{background:#0e1b24;color:#fff;line-height:1.7}
+header{background:#08131a;padding:15px 8%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+.logo{display:flex;align-items:center;gap:15px}.logo img{height:60px}
+.logo h1,.titulo{color:#d62828}
+nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:60px;padding:80px 8%}
+.hero-text{flex:1;min-width:320px;max-width:600px}
+.hero-text h2{font-size:3.5rem;color:#d62828;margin-bottom:15px}
+.btn{display:inline-block;background:#b00000;color:#fff;padding:14px 28px;border-radius:8px;text-decoration:none;margin-top:15px}
+.hero-image img{max-width:260px;width:100%}
+section{padding:70px 8%}
+.titulo{text-align:center;margin-bottom:30px}
+.card,.etapa,.membro{background:#132733;border-radius:12px;padding:20px}
+.processo,.equipe{display:grid;gap:20px}
+.processo{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.equipe{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.imagem{text-align:center;margin-top:25px}
+.imagem img{max-width:800px;width:100%;border-radius:15px}
+footer{text-align:center;background:#08131a;padding:30px}
+@media(max-width:900px){nav{display:none}.hero{text-align:center}.hero-text h2{font-size:2.5rem}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo"><img src="logo.jpg"><h1>Goró Tiefsee</h1></div>
+<nav><a href="#historia">História</a><a href="#cerveja">Cerveja</a><a href="#processo">Produção</a><a href="#controle">Controle</a><a href="#equipe">Equipe</a></nav>
+</header>
+
+<section class="hero">
+<div class="hero-text">
+<h2>Goró Tiefsee</h2>
+<p>Tecnologia e tradição fermentando inovação.</p>
+<p>Projeto desenvolvido no SENAC Santo Amaro pelos alunos de Engenharia da Computação, unindo automação e produção artesanal de cerveja.</p>
+<a class="btn" href="#historia">Conheça o Projeto</a>
+</div>
+<div class="hero-image"><img src="logo.jpg"></div>
+</section>
+
+<section id="historia">
+<h2 class="titulo">Nossa História</h2>
+<div class="card">A Goró Tiefsee nasceu como um projeto acadêmico para integrar sistemas embarcados, monitoramento e controle de temperatura ao processo de produção de cerveja artesanal.</div>
+</section>
+
+<section id="cerveja">
+<h2 class="titulo">A Cerveja</h2>
+<div class="card"><ul><li>Estilo Pilsen</li><li>Teor alcoólico: 4%</li><li>Cor dourada clara</li><li>Aroma leve e refrescante</li><li>Amargor equilibrado</li></ul></div>
+<div class="imagem"><img src="IMG-20260605-WA0071.jpg"></div>
+</section>
+
+<section id="processo">
+<h2 class="titulo">Processo de Fabricação</h2>
+<div class="processo">
+<div class="etapa">1. Moagem</div><div class="etapa">2. Mosturação</div><div class="etapa">3. Filtração</div>
+<div class="etapa">4. Fervura</div><div class="etapa">5. Fermentação</div><div class="etapa">6. Maturação</div><div class="etapa">7. Envase</div>
+</div>
+<div class="imagem"><img src="IMG-20260612-WA0023.jpg"></div>
+</section>
+
+<section id="controle">
+<h2 class="titulo">Controle Inteligente de Temperatura</h2>
+<div class="card">Sistema desenvolvido com ESP32, sensores e monitoramento em tempo real para auxiliar o controle térmico da fermentação.</div>
+<div class="imagem"><img src="IMG-20260612-WA0036.jpg"></div>
+</section>
+
+<section id="equipe">
+<h2 class="titulo">Equipe</h2>
+<div class="equipe">
+<div class="membro">Vitor Araujo Santos</div>
+<div class="membro">João Victor</div>
+<div class="membro">João Henrique</div>
+<div class="membro">Matheus Moura</div>
+<div class="membro">Mateus Zavagli</div>
+<div class="membro">Erick</div>
+<div class="membro">Arthur de Paiva</div>
+</div>
+</section>
+
+<footer><h3>SENAC Santo Amaro</h3><p>Engenharia da Computação</p></footer>
+</body></html>
